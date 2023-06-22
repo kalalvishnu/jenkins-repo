@@ -29,7 +29,7 @@ pipeline {
         }
         stage('UAT') {
             steps {
-                echo 'UAT enviornment'
+                echo 'UAT enviornmment'
             }
         }
         
