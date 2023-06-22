@@ -32,10 +32,7 @@ pipeline {
                 echo 'UAT enviornment'
             }
         }
-        stage('PROD') {
-            steps {
-                echo 'Prod'
-            }
+        
         }
     }
 }
